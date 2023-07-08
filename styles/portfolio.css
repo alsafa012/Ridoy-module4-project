@@ -16,6 +16,23 @@ body{
     color: #FFF;
     padding: 15px 35px;
     margin-right: 10px;
+    transition-duration: 3s ;
+    transition-delay: 0s;
+    /* transition: all 0.5s  ; */
+
+    
+
+}
+.btn-primary:hover{
+    background-color: aqua;
+    color: tomato;
+    border-radius: 30px;
+    transform: rotate(360deg);
+    /* transform: scale(1.9); */
+   
+   
+    
+
 
 }
 .btn-contact{
@@ -64,9 +81,10 @@ nav a{
 /* header related style */
 .header{
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url("../images/developer.png");
+    background-image: url('../images/header_bg.png'),
+    url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right,top left;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -173,11 +191,14 @@ main section{
     margin: 25px;
     width: 250px;
     border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 60px 100px 0px rgba(0, 0, 0, 0.06);
-
-    /* gap: 24px; */
-    /* text-align:left; */      
+    background: #ebe4e4;
+    box-shadow:  3px 5px 6px gray;      
+}
+.skill:hover{
+    color: #FD6E0A;
+    transform: scale(1.2);
+    border-radius: 15px;
+    
 }
 .section-img{
     padding: 15px;
@@ -215,6 +236,13 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+.submit:hover{
+
+    transform: scale(1.4);
+    color: #474747;
+    background-color: azure;
+
+}
 /* footer section */
 footer{
     display: flex;
@@ -227,10 +255,13 @@ footer{
     width: 50%;
 
 }
-/* ?social phtots */
+/* social phtots */
 .social-links a{
     margin-right: 24px;
 }
+/* .social-links:hover{
+    transform: scale(2);
+} */
 /* form */
 .form-contact input[type="text"],.form-contact input[type="email"],textarea{
     display: block;
