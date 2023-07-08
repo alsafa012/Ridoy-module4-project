@@ -1,0 +1,245 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.text-primary{
+    color:#FD6E0A ;
+}
+.btn-primary{
+
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 15px 35px;
+    margin-right: 10px;
+
+}
+.btn-contact{
+    /* background-color: white; */
+    color: #FD6E0A;
+    background: #FFF8F3;
+    text-align: center;
+    
+    font-size: 20px;
+    border: 2px solid #FD6E0A;
+    /* background-repeat: none;
+    background-position: center; */
+
+}
+
+
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:o 200px;
+}
+.nav-tittle{
+    /* margin-right: 50%; */
+    
+    color: #181818;   
+    font-size: 45px;   
+    font-weight: 800;
+}
+
+nav > ul{ 
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+
+/* header related style */
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner.profile-pic{
+    width: 500px;
+    /* height: 550px; */
+
+}
+.banner-contant{
+    width: 585px;
+}
+.banner-grety{
+    font-size: 45px;
+    color: #474747;
+    margin: 0px;
+
+
+}
+.banner-heading{
+    /* color:#181818; */
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top:5px ;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+    display: flex;
+/* width: 585px; */
+flex-direction: column;
+margin-top: 0px;
+padding-bottom: 10px;
+}
+
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* About Section Styles */
+.about{
+   padding: 130px;
+   background: #FFF8F3;
+   border-radius: 10px;
+   margin: 130px;
+}
+.section-tittle{
+    color: #181818;
+    text-align: center;   
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    }
+    .about-info-container{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+.about-info{
+   text-align: center;
+   /* font-weight: none; */
+   /* padding-bottom: 60px; */
+   
+   
+   
+}
+/* .info-tittle{
+   padding-bottom: 0px; 
+}
+.info-description{
+ margin-top: 0px;   
+} */
+
+
+/* what to i do section */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    /* width: 500px; */
+}
+.skill{
+    /* border: 5px solid rgb(156, 24, 24); */
+    padding-top:10px;
+    margin: 25px;
+    width: 250px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 60px 100px 0px rgba(0, 0, 0, 0.06);
+
+    /* gap: 24px; */
+    /* text-align:left; */      
+}
+.section-img{
+    padding: 15px;
+}
+.skill-tittle{
+    padding: 0px 15px;
+
+}
+.skill-description{
+    padding: 15px;
+       
+}
+/* Resume section styles */
+.resume-container{
+    display: flex;
+    gap: 80px;
+}
+.resume-item-tittle{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-institute,.resume-item-discription{
+    color: #757575;
+}
+.resume-container hr{
+    margin-top: 30px;
+}
+.downlode-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer section */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px ;
+    margin-top: 100px;
+    gap:100px
+}
+.footer-column{
+    width: 50%;
+
+}
+/* ?social phtots */
+.social-links a{
+    margin-right: 24px;
+}
+/* form */
+.form-contact input[type="text"],.form-contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background:#FFF;
+    border: none;
+    width: 100%;
+}
